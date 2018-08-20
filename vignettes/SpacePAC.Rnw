@@ -89,8 +89,8 @@ Code Example 1: Running Spaceclust with 3 spheres with radii 1,2,3,4.
 library(SpacePAC)
 ##Extract the data from a CIF file and match it up with the canonical protein sequence.
 #Here we use the 2ENQ structure from the PDB, which corresponds to the PIK3CA protein.
-CIF <- "http://www.pdb.org/pdb/files/2ENQ.cif"
-Fasta <- "http://www.uniprot.org/uniprot/P42336.fasta"
+CIF <- "https://www.pdb.org/pdb/files/2ENQ.cif"
+Fasta <- "https://www.uniprot.org/uniprot/P42336.fasta"
 PIK3CA.Positions <- get.AlignedPositions(CIF, Fasta, "A")
 
 ##Load the mutational data for PIK3CA. Here the mutational data was obtained from the
@@ -187,8 +187,8 @@ Code Example 2: Running Spaceclust using the Poisson distribution.
 
 ##Extract the data from a CIF file and match it up with the canonical protein sequence.
 #Here we use the 2ENQ structure from the PDB, which corresponds to the PIK3CA protein.
-CIF <- "http://www.pdb.org/pdb/files/3GFT.cif"
-Fasta <- "http://www.uniprot.org/uniprot/P01116-2.fasta"
+CIF <- "https://www.pdb.org/pdb/files/3GFT.cif"
+Fasta <- "https://www.uniprot.org/uniprot/P01116-2.fasta"
 KRAS.Positions <- get.Positions(CIF, Fasta, "A")
 data(KRAS.Mutations)
 
@@ -212,8 +212,8 @@ Code Example 3: Making a Plot.
 <<label=Example3,echo=true, eval = TRUE, pdf=FALSE>>=
   ##To avoid RGL errors, this code is not run. However it has been tested and verified. 
   #library(rgl)
-  #CIF <- "http://www.pdb.org/pdb/files/3GFT.cif"
-  #Fasta <- "http://www.uniprot.org/uniprot/P01116-2.fasta"
+  #CIF <- "https://www.pdb.org/pdb/files/3GFT.cif"
+  #Fasta <- "https://www.uniprot.org/uniprot/P01116-2.fasta"
   #KRAS.Positions <- get.Positions(CIF, Fasta, "A")
   #make.3D.Sphere(KRAS.Positions$Positions, 12, 3)
 @
