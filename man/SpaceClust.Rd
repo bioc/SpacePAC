@@ -93,7 +93,7 @@ If you use the Poisson method, a Bonferroni correction is used to adjust for all
 
 
 \examples{
-CIF <- "https://www.pdb.org/pdb/files/3GFT.cif"
+CIF <- "https://files.rcsb.org/view/3GFT.cif"
 Fasta <- "https://www.uniprot.org/uniprot/P01116-2.fasta"
 KRAS.Positions <- get.Positions(CIF, Fasta, "A")
 data(KRAS.Mutations)

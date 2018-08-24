@@ -51,7 +51,7 @@ Daniel Adler and Duncan Murdoch (2013). rgl: 3D visualization device system (Ope
 library(rgl)
 
 #loads the data
-CIF <- "https://www.pdb.org/pdb/files/3GFT.cif"
+CIF <- "https://files.rcsb.org/view/3GFT.cif"
 Fasta <- "https://www.uniprot.org/uniprot/P01116-2.fasta"
 KRAS.Positions <- get.Positions(CIF, Fasta, "A")
 
