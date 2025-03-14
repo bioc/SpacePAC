@@ -2,7 +2,7 @@ Package: SpacePAC
 Type: Package
 Title: Identification of Mutational Clusters in 3D Protein Space via
         Simulation.
-Version: 1.45.0
+Version: 1.45.1
 Date: 2018-08-20
 Author: Gregory Ryslik, Hongyu Zhao
 Maintainer: Gregory Ryslik <gregory.ryslik@yale.edu>
@@ -12,3 +12,4 @@ License: GPL-2
 Depends: R(>= 2.15),iPAC
 Suggests: RUnit, BiocGenerics, rgl
 Repository: Bioconductor
+PackageStatus: Deprecated
